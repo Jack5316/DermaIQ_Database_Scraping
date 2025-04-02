@@ -1,0 +1,4 @@
+2025-03-31 11:57:51,503 - boots_browser_server - INFO - Setting up browser
+2025-03-31 11:57:53,289 - boots_browser_server - INFO - Browser set up successfully
+2025-03-31 11:57:53,774 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 11:57:53,820 - werkzeug - INFO -  * Debugger PIN: 104-013-664

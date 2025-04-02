@@ -1,0 +1,15 @@
+DATA SUMMARY
+Total products scraped: 3640
+Unique brands: 3285
+
+Field coverage:
+  product_name: 3630 (99.7%)
+  brand: 3625 (99.6%)
+  ingredients: 1434 (39.4%)
+  hazards_and_cautions: 0 (0.0%)
+  product_details: 0 (0.0%)
+  country_of_origin: 1152 (31.6%)
+  how_to_use: 0 (0.0%)
+
+Products with ingredients: 1434 (39.4%)
+Average ingredients per product: 15.3

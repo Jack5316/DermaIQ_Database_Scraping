@@ -1,0 +1,119 @@
+2025-03-31 12:00:01,604 - INFO - Starting Boots Product Extractor
+2025-03-31 12:00:01,604 - INFO - Command line arguments: Namespace(headless=True, max_products=None, batch_size=10, resume_from=0, data_dir='data', screenshot_dir='screenshots', urls_file=None, test=False)
+2025-03-31 12:00:01,604 - INFO - Finding 5-star product URLs
+2025-03-31 12:00:01,604 - INFO - Finding all 5-star skincare product URLs from https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 12:00:01,604 - INFO - Setting up browser
+2025-03-31 12:00:07,422 - INFO - Checking for cookie consent dialog
+2025-03-31 12:00:07,539 - INFO - Waiting 2.00 seconds before request...
+2025-03-31 12:00:09,538 - INFO - Navigating to https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 12:00:12,047 - INFO - Current URL: https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 12:00:12,048 - INFO - Scrolling to load all products
+2025-03-31 12:00:12,048 - INFO - Scroll 1/12
+2025-03-31 12:00:14,292 - INFO - Scroll 2/12
+2025-03-31 12:00:16,322 - INFO - Scroll 3/12
+2025-03-31 12:00:18,366 - INFO - Scroll 4/12
+2025-03-31 12:00:20,721 - INFO - Scroll 5/12
+2025-03-31 12:00:23,356 - INFO - Scroll 6/12
+2025-03-31 12:00:25,630 - INFO - Scroll 7/12
+2025-03-31 12:00:27,850 - INFO - Scroll 8/12
+2025-03-31 12:00:30,064 - INFO - Scroll 9/12
+2025-03-31 12:00:32,196 - INFO - Scroll 10/12
+2025-03-31 12:00:34,334 - INFO - Scroll 11/12
+2025-03-31 12:00:36,485 - INFO - Scroll 12/12
+2025-03-31 12:00:38,519 - INFO - Extracting product URLs from current page
+2025-03-31 12:00:38,526 - INFO - Found 0 product cards with selector: .product-grid .product-tile
+2025-03-31 12:00:38,532 - INFO - Found 0 product cards with selector: .product-list-item
+2025-03-31 12:00:38,551 - INFO - Found 0 product cards with selector: .product-card
+2025-03-31 12:00:38,577 - INFO - Found 0 product cards with selector: .product
+2025-03-31 12:00:38,588 - INFO - Found 0 product cards with selector: [data-test="product-tile"]
+2025-03-31 12:00:38,601 - INFO - Found 0 product cards with selector: .product-grid-item
+2025-03-31 12:00:38,607 - INFO - Found 0 product cards with selector: .product-item
+2025-03-31 12:00:38,613 - INFO - Found 0 product cards with selector: .plp-grid__item
+2025-03-31 12:00:38,618 - INFO - Found 0 product cards with selector: .product-list__item
+2025-03-31 12:00:38,622 - INFO - Found 0 product cards with selector: .product-tile
+2025-03-31 12:00:38,626 - INFO - Found 0 product cards with selector: article.product
+2025-03-31 12:00:38,630 - INFO - Found 0 product cards with selector: div[data-component="product"]
+2025-03-31 12:00:38,633 - INFO - Found 0 product cards with selector: li.product
+2025-03-31 12:00:38,634 - INFO - No product cards found, looking for product links directly
+2025-03-31 12:00:39,853 - INFO - Found 0 unique product URLs
+2025-03-31 12:00:39,854 - WARNING - No product URLs found, using test URLs
+2025-03-31 12:00:39,854 - INFO - Saved 3 product URLs to data/boots_5star_urls_20250331_120001.txt
+2025-03-31 12:00:39,987 - INFO - Found 3 5-star product URLs
+2025-03-31 12:00:39,987 - INFO - Processing 3 products in 1 batches of size 10
+2025-03-31 12:00:39,987 - INFO - Starting from product index 0
+2025-03-31 12:00:39,987 - INFO - Starting batch 1/1
+2025-03-31 12:00:39,987 - INFO - Processing batch 1 with 3 products
+2025-03-31 12:00:39,987 - INFO - Setting up browser
+2025-03-31 12:00:45,628 - INFO - Checking for cookie consent dialog
+2025-03-31 12:00:45,666 - INFO - Processing product 1/3: https://www.boots.com/beauty/skincare/face-skincare/cleansers-and-toners/no7-radiant-results-revitalising-cleansing-wipes-30s-10263822
+2025-03-31 12:00:45,666 - INFO - Scraping product details: https://www.boots.com/beauty/skincare/face-skincare/cleansers-and-toners/no7-radiant-results-revitalising-cleansing-wipes-30s-10263822
+2025-03-31 12:00:45,666 - INFO - Waiting 1.66 seconds before request...
+2025-03-31 12:00:49,221 - INFO - Saved screenshot to screenshots/no7-radiant-results-revitalising-cleansing-wipes-30s-10263822.png
+2025-03-31 12:00:49,264 - INFO - Found product name: Generic Error
+2025-03-31 12:00:49,374 - INFO - Found ingredients tab with selector: a:has-text("Ingredients")
+2025-03-31 12:01:19,388 - WARNING - Error extracting ingredients: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not visible
+  -     - retrying click action
+  -     - waiting 20ms
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not visible
+  -     - retrying click action
+  -       - waiting 100ms
+  -     57 × waiting for element to be visible, enabled and stable
+  -        - element is not visible
+  -      - retrying click action
+  -        - waiting 500ms
+
+2025-03-31 12:01:20,183 - INFO - Saved batch data to data/boots_5star_batch_1_20250331_120001.csv
+2025-03-31 12:01:20,183 - INFO - Processing product 2/3: https://www.boots.com/beauty/skincare/face-skincare/face-serums/no7-laboratories-firming-booster-serum-30ml-10263820
+2025-03-31 12:01:20,183 - INFO - Scraping product details: https://www.boots.com/beauty/skincare/face-skincare/face-serums/no7-laboratories-firming-booster-serum-30ml-10263820
+2025-03-31 12:01:20,183 - INFO - Waiting 1.49 seconds before request...
+2025-03-31 12:01:23,301 - INFO - Saved screenshot to screenshots/no7-laboratories-firming-booster-serum-30ml-10263820.png
+2025-03-31 12:01:23,339 - INFO - Found product name: Generic Error
+2025-03-31 12:01:23,429 - INFO - Found ingredients tab with selector: a:has-text("Ingredients")
+2025-03-31 12:01:53,438 - WARNING - Error extracting ingredients: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not visible
+  -     - retrying click action
+  -     - waiting 20ms
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not visible
+  -     - retrying click action
+  -       - waiting 100ms
+  -     58 × waiting for element to be visible, enabled and stable
+  -        - element is not visible
+  -      - retrying click action
+  -        - waiting 500ms
+
+2025-03-31 12:01:54,050 - INFO - Saved batch data to data/boots_5star_batch_1_20250331_120001.csv
+2025-03-31 12:01:54,050 - INFO - Processing product 3/3: https://www.boots.com/beauty/skincare/face-skincare/face-moisturisers-and-creams/no7-protect-and-perfect-intense-advanced-day-cream-spf15-50ml-10263818
+2025-03-31 12:01:54,050 - INFO - Scraping product details: https://www.boots.com/beauty/skincare/face-skincare/face-moisturisers-and-creams/no7-protect-and-perfect-intense-advanced-day-cream-spf15-50ml-10263818
+2025-03-31 12:01:54,050 - INFO - Waiting 2.69 seconds before request...
+2025-03-31 12:01:58,300 - INFO - Saved screenshot to screenshots/no7-protect-and-perfect-intense-advanced-day-cream-spf15-50ml-10263818.png
+2025-03-31 12:01:58,332 - INFO - Found product name: Generic Error
+2025-03-31 12:01:58,394 - INFO - Found ingredients tab with selector: a:has-text("Ingredients")
+2025-03-31 12:02:28,400 - WARNING - Error extracting ingredients: ElementHandle.click: Timeout 30000ms exceeded.
+Call log:
+  - attempting click action
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not visible
+  -     - retrying click action
+  -     - waiting 20ms
+  -     2 × waiting for element to be visible, enabled and stable
+  -       - element is not visible
+  -     - retrying click action
+  -       - waiting 100ms
+  -     58 × waiting for element to be visible, enabled and stable
+  -        - element is not visible
+  -      - retrying click action
+  -        - waiting 500ms
+
+2025-03-31 12:02:29,031 - INFO - Saved batch data to data/boots_5star_batch_1_20250331_120001.csv
+2025-03-31 12:02:29,053 - INFO - Saved all data to data/boots_5star_products_20250331_120001.csv
+2025-03-31 12:02:29,054 - INFO - Updated progress file
+2025-03-31 12:02:29,054 - INFO - Scraping completed. Processed 3 products.

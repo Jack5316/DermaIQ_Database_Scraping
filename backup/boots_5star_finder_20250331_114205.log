@@ -1,0 +1,36 @@
+2025-03-31 11:42:05,883 - boots_5star_finder - INFO - Starting to find 5-star product URLs from https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 11:42:07,660 - boots_5star_finder - INFO - Navigating to https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 11:42:11,594 - boots_5star_finder - INFO - Took screenshot of initial page
+2025-03-31 11:42:11,594 - boots_5star_finder - INFO - Checking for cookie consent dialog
+2025-03-31 11:42:11,606 - boots_5star_finder - INFO - Trying selector: .product-grid .product-tile
+2025-03-31 11:42:11,615 - boots_5star_finder - INFO - Trying selector: .product-list-item
+2025-03-31 11:42:11,619 - boots_5star_finder - INFO - Trying selector: .product-card
+2025-03-31 11:42:11,623 - boots_5star_finder - INFO - Trying selector: .product
+2025-03-31 11:42:11,626 - boots_5star_finder - INFO - Trying selector: [data-test="product-tile"]
+2025-03-31 11:42:11,630 - boots_5star_finder - INFO - Trying selector: .product-grid-item
+2025-03-31 11:42:11,633 - boots_5star_finder - INFO - Trying selector: .product-item
+2025-03-31 11:42:11,636 - boots_5star_finder - INFO - Trying selector: .plp-grid__item
+2025-03-31 11:42:11,657 - boots_5star_finder - INFO - Starting to scroll to load all products
+2025-03-31 11:42:11,657 - boots_5star_finder - INFO - Scrolling to position 10%
+2025-03-31 11:42:13,805 - boots_5star_finder - INFO - Scrolling to position 20%
+2025-03-31 11:42:15,948 - boots_5star_finder - INFO - Scrolling to position 30%
+2025-03-31 11:42:18,058 - boots_5star_finder - INFO - Scrolling to position 40%
+2025-03-31 11:42:20,172 - boots_5star_finder - INFO - Scrolling to position 50%
+2025-03-31 11:42:22,272 - boots_5star_finder - INFO - Scrolling to position 60%
+2025-03-31 11:42:24,389 - boots_5star_finder - INFO - Scrolling to position 70%
+2025-03-31 11:42:26,518 - boots_5star_finder - INFO - Scrolling to position 80%
+2025-03-31 11:42:28,616 - boots_5star_finder - INFO - Scrolling to position 90%
+2025-03-31 11:42:30,705 - boots_5star_finder - INFO - Scrolling to position 100%
+2025-03-31 11:42:34,014 - boots_5star_finder - INFO - Saved page content to data/page_content.html
+2025-03-31 11:42:34,429 - boots_5star_finder - INFO - Found 0 links with selector: a.product-title
+2025-03-31 11:42:34,452 - boots_5star_finder - INFO - Found 0 links with selector: a.product-name
+2025-03-31 11:42:34,475 - boots_5star_finder - INFO - Found 0 links with selector: a.product-link
+2025-03-31 11:42:34,529 - boots_5star_finder - INFO - Found 0 links with selector: a[data-test="product-link"]
+2025-03-31 11:42:34,599 - boots_5star_finder - INFO - Found 0 links with selector: .product a
+2025-03-31 11:42:34,705 - boots_5star_finder - INFO - Found 0 links with selector: .product-tile a
+2025-03-31 11:42:34,811 - boots_5star_finder - INFO - Found 0 links with selector: .product-card a
+2025-03-31 11:42:34,811 - boots_5star_finder - INFO - Trying a more general approach to find product URLs
+2025-03-31 11:42:34,821 - boots_5star_finder - INFO - Found 1451 links on the page
+2025-03-31 11:42:34,822 - boots_5star_finder - INFO - Added product URL: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:42:34,822 - boots_5star_finder - INFO - Saved 1 product URLs to data/boots_5star_urls_20250331_114205.txt
+2025-03-31 11:42:35,117 - boots_5star_finder - INFO - Successfully found 1 5-star product URLs

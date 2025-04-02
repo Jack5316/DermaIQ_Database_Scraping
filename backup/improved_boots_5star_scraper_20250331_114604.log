@@ -1,0 +1,61 @@
+2025-03-31 11:46:04,134 - INFO - Starting improved Boots 5-star skincare products scraper
+2025-03-31 11:46:04,134 - INFO - Command line arguments: Namespace(headless=True, max_products=None, batch_size=20, resume_from=0, data_dir='data', screenshot_dir='screenshots', urls_file=None)
+2025-03-31 11:46:04,134 - INFO - Finding 5-star product URLs
+2025-03-31 11:46:04,134 - INFO - Finding 5-star rated skincare product URLs from https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 11:46:04,829 - INFO - Waiting 4.00 seconds before request...
+2025-03-31 11:46:08,835 - INFO - Navigating to https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 11:46:14,189 - INFO - Checking for cookie consent dialog
+2025-03-31 11:46:14,838 - INFO - Planning to perform 12 scrolls to load all products
+2025-03-31 11:46:14,839 - INFO - Scrolling to load more products (scroll 1/12)...
+2025-03-31 11:46:20,122 - INFO - Scrolling to load more products (scroll 2/12)...
+2025-03-31 11:46:25,170 - INFO - Scrolling to load more products (scroll 3/12)...
+2025-03-31 11:46:30,232 - INFO - Scrolling to load more products (scroll 4/12)...
+2025-03-31 11:46:35,285 - INFO - Scrolling to load more products (scroll 5/12)...
+2025-03-31 11:46:40,419 - INFO - Scrolling to load more products (scroll 6/12)...
+2025-03-31 11:46:45,455 - INFO - Scrolling to load more products (scroll 7/12)...
+2025-03-31 11:46:50,507 - INFO - Scrolling to load more products (scroll 8/12)...
+2025-03-31 11:46:55,542 - INFO - Scrolling to load more products (scroll 9/12)...
+2025-03-31 11:47:00,575 - INFO - Scrolling to load more products (scroll 10/12)...
+2025-03-31 11:47:05,807 - INFO - Scrolling to load more products (scroll 11/12)...
+2025-03-31 11:47:10,879 - INFO - Scrolling to load more products (scroll 12/12)...
+2025-03-31 11:47:16,015 - INFO - Saved page content to data/page_content_20250331_114604.html
+2025-03-31 11:47:16,558 - INFO - Found 0 potential product elements with selector: .product-grid .product-tile
+2025-03-31 11:47:16,603 - INFO - Found 0 potential product elements with selector: .product-list-item
+2025-03-31 11:47:16,685 - INFO - Found 0 potential product elements with selector: .product-card
+2025-03-31 11:47:16,746 - INFO - Found 0 potential product elements with selector: .product
+2025-03-31 11:47:16,820 - INFO - Found 0 potential product elements with selector: [data-test="product-tile"]
+2025-03-31 11:47:16,870 - INFO - Found 0 potential product elements with selector: .product-grid-item
+2025-03-31 11:47:16,940 - INFO - Found 0 potential product elements with selector: .product-item
+2025-03-31 11:47:17,010 - INFO - Found 0 potential product elements with selector: .plp-grid__item
+2025-03-31 11:47:17,079 - INFO - Found 0 potential product elements with selector: .product-list__item
+2025-03-31 11:47:17,146 - INFO - Found 0 potential product elements with selector: .product-tile
+2025-03-31 11:47:17,173 - INFO - Found 0 potential product elements with selector: article.product
+2025-03-31 11:47:17,226 - INFO - Found 0 potential product elements with selector: div[data-component="product"]
+2025-03-31 11:47:17,261 - INFO - Found 0 potential product elements with selector: li.product
+2025-03-31 11:47:17,261 - INFO - Trying direct link selectors
+2025-03-31 11:47:17,298 - INFO - Found 0 links with selector: a.product-title
+2025-03-31 11:47:17,353 - INFO - Found 0 links with selector: a.product-name
+2025-03-31 11:47:17,383 - INFO - Found 0 links with selector: a.product-link
+2025-03-31 11:47:17,428 - INFO - Found 0 links with selector: a[data-test="product-link"]
+2025-03-31 11:47:17,521 - INFO - Found 0 links with selector: .product a
+2025-03-31 11:47:17,609 - INFO - Found 0 links with selector: .product-tile a
+2025-03-31 11:47:17,698 - INFO - Found 0 links with selector: .product-card a
+2025-03-31 11:47:17,739 - INFO - Found 0 links with selector: a[href*="/product/"]
+2025-03-31 11:47:17,769 - INFO - Found 1 links with selector: a[href*="/skincare/"]
+2025-03-31 11:47:17,770 - INFO - Added product URL: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:47:17,770 - INFO - Saved 1 product URLs to data/boots_5star_urls_20250331_114604.txt
+2025-03-31 11:47:17,859 - INFO - Found 1 5-star product URLs
+2025-03-31 11:47:17,859 - INFO - Processing 1 products in 1 batches of size 20
+2025-03-31 11:47:17,859 - INFO - Starting from product index 0
+2025-03-31 11:47:17,859 - INFO - Starting batch 1/1
+2025-03-31 11:47:17,860 - INFO - Processing batch 1 with 1 products
+2025-03-31 11:47:22,681 - INFO - Checking for cookie consent dialog
+2025-03-31 11:47:22,718 - INFO - Processing product 1/1: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:47:22,718 - INFO - Scraping product: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:47:22,718 - INFO - Waiting 2.68 seconds before request...
+2025-03-31 11:47:27,290 - INFO - Saved screenshot to screenshots/skincare-all-skincare.png
+2025-03-31 11:47:27,432 - INFO - Found ingredients tab with selector: button:has-text("Ingredients")
+2025-03-31 11:47:29,648 - INFO - Saved batch data to data/boots_5star_batch_1_20250331_114604.csv
+2025-03-31 11:47:29,673 - INFO - Saved all data to data/boots_5star_products_20250331_114604.csv
+2025-03-31 11:47:29,673 - INFO - Updated progress file
+2025-03-31 11:47:29,673 - INFO - Scraping completed. Processed 1 products.

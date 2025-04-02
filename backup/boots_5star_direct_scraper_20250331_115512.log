@@ -1,0 +1,49 @@
+2025-03-31 11:55:12,521 - INFO - Starting Boots 5-star direct scraper
+2025-03-31 11:55:12,521 - INFO - Command line arguments: Namespace(headless=True, max_products=None, data_dir='data', screenshot_dir='screenshots', skip_details=False, product_file=None)
+2025-03-31 11:55:12,521 - INFO - Getting skincare products
+2025-03-31 11:55:12,521 - INFO - Getting all skincare products
+2025-03-31 11:55:13,190 - INFO - Waiting 3.68 seconds before request...
+2025-03-31 11:55:16,873 - INFO - Navigating to https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:55:20,936 - INFO - Checking for cookie consent dialog
+2025-03-31 11:55:20,974 - INFO - Applying 5-star filter
+2025-03-31 11:55:20,997 - WARNING - Could not find 5-star filter to click, using direct URL
+2025-03-31 11:55:22,868 - INFO - Current URL: https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 11:55:22,869 - INFO - Scrolling to load all products
+2025-03-31 11:55:22,869 - INFO - Scroll 1/12
+2025-03-31 11:55:24,931 - INFO - Scroll 2/12
+2025-03-31 11:55:26,958 - INFO - Scroll 3/12
+2025-03-31 11:55:28,987 - INFO - Scroll 4/12
+2025-03-31 11:55:31,040 - INFO - Scroll 5/12
+2025-03-31 11:55:33,071 - INFO - Scroll 6/12
+2025-03-31 11:55:35,109 - INFO - Scroll 7/12
+2025-03-31 11:55:37,153 - INFO - Scroll 8/12
+2025-03-31 11:55:39,212 - INFO - Scroll 9/12
+2025-03-31 11:55:41,258 - INFO - Scroll 10/12
+2025-03-31 11:55:43,289 - INFO - Scroll 11/12
+2025-03-31 11:55:45,317 - INFO - Scroll 12/12
+2025-03-31 11:55:47,368 - INFO - Extracting product information
+2025-03-31 11:55:47,374 - INFO - Found 0 product cards with selector: .product-grid .product-tile
+2025-03-31 11:55:47,378 - INFO - Found 0 product cards with selector: .product-list-item
+2025-03-31 11:55:47,382 - INFO - Found 0 product cards with selector: .product-card
+2025-03-31 11:55:47,386 - INFO - Found 0 product cards with selector: .product
+2025-03-31 11:55:47,390 - INFO - Found 0 product cards with selector: [data-test="product-tile"]
+2025-03-31 11:55:47,394 - INFO - Found 0 product cards with selector: .product-grid-item
+2025-03-31 11:55:47,398 - INFO - Found 0 product cards with selector: .product-item
+2025-03-31 11:55:47,401 - INFO - Found 0 product cards with selector: .plp-grid__item
+2025-03-31 11:55:47,405 - INFO - Found 0 product cards with selector: .product-list__item
+2025-03-31 11:55:47,409 - INFO - Found 0 product cards with selector: .product-tile
+2025-03-31 11:55:47,409 - INFO - No product cards found, trying to extract product links directly
+2025-03-31 11:55:47,953 - INFO - Found 1451 links on the page
+2025-03-31 11:55:49,922 - INFO - Found 0 unique product links
+2025-03-31 11:55:49,923 - INFO - No product data found, trying to extract from page HTML
+2025-03-31 11:55:50,393 - INFO - Found 0 unique product links from HTML
+2025-03-31 11:55:50,393 - INFO - No product data found, trying to extract from network requests
+2025-03-31 11:55:53,415 - ERROR - Error getting skincare products: 'BrowserContext' object has no attribute 'all_requests'
+2025-03-31 11:55:53,417 - ERROR - Traceback (most recent call last):
+  File "/Users/jack/Documents/Codebase/Claude Code/DermaIQ/Scraping/boots_5star_direct_scraper.py", line 299, in get_all_skincare_products
+    requests = await page.context.all_requests
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'BrowserContext' object has no attribute 'all_requests'
+
+2025-03-31 11:55:53,418 - INFO - Found 0 products
+2025-03-31 11:55:53,418 - ERROR - No product data found

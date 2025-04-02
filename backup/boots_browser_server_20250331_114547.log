@@ -1,0 +1,6 @@
+2025-03-31 11:45:47,321 - boots_browser_server - INFO - Setting up browser
+2025-03-31 11:45:48,737 - boots_browser_server - INFO - Browser set up successfully
+2025-03-31 11:45:48,836 - werkzeug - WARNING -  * Debugger is active!
+2025-03-31 11:45:48,856 - werkzeug - INFO -  * Debugger PIN: 104-013-664
+2025-03-31 11:54:59,120 - werkzeug - INFO -  * Detected change in '/Users/jack/Documents/Codebase/Claude Code/DermaIQ/Scraping/boots_5star_direct_scraper.py', reloading
+2025-03-31 11:54:59,138 - werkzeug - INFO -  * Detected change in '/Users/jack/Documents/Codebase/Claude Code/DermaIQ/Scraping/boots_5star_direct_scraper.py', reloading

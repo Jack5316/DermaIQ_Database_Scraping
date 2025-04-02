@@ -1,0 +1,746 @@
+2025-03-31 10:59:45,411 - INFO - Navigating to category page: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 10:59:48,634 - INFO - Screenshot saved to screenshots/category_page.png
+2025-03-31 10:59:48,635 - INFO - Scrolling to load more products...
+2025-03-31 10:59:54,085 - INFO - Found 1144 links on the page
+2025-03-31 10:59:54,087 - INFO - Found product URL: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 10:59:54,087 - INFO - Not enough products found, trying search...
+2025-03-31 10:59:55,899 - INFO - Searching for: skincare
+2025-03-31 11:00:01,022 - INFO - Screenshot saved to screenshots/search_skincare.png
+2025-03-31 11:00:04,330 - INFO - Found product URL from search: https://www.boots.com/beauty/skincare/new-in-skincare
+2025-03-31 11:00:04,330 - INFO - Found product URL from search: https://www.boots.com/beauty/skincare/korean-skincare
+2025-03-31 11:00:04,330 - INFO - Found 3 product URLs
+2025-03-31 11:00:04,519 - INFO - Scraping 3 product URLs
+2025-03-31 11:00:05,599 - INFO - 
+==================================================
+Scraping product 1/3: https://www.boots.com/beauty/skincare/skincare-all-skincare
+==================================================
+2025-03-31 11:00:05,599 - INFO - Waiting 2.34 seconds...
+2025-03-31 11:00:07,945 - INFO - Navigating to: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:00:12,053 - INFO - Screenshot saved to screenshots/unknown.png
+2025-03-31 11:00:12,659 - INFO - Clicked on tab: button:has-text("Ingredients")
+2025-03-31 11:00:14,221 - WARNING - Error with ingredients selector .tab-content:has-text("Ingredients"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:14,351 - WARNING - Error with details selector .tab-content:has-text("Product details"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:14,493 - WARNING - Error with how to use selector .tab-content:has-text("How to use"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:14,702 - WARNING - Error with hazards selector .tab-content:has-text("Warnings"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:14,702 - INFO - Successfully scraped: shop all skincare
+2025-03-31 11:00:14,702 - INFO - 
+==================================================
+Scraping product 2/3: https://www.boots.com/beauty/skincare/new-in-skincare
+==================================================
+2025-03-31 11:00:14,702 - INFO - Waiting 1.74 seconds...
+2025-03-31 11:00:16,447 - INFO - Navigating to: https://www.boots.com/beauty/skincare/new-in-skincare
+2025-03-31 11:00:18,857 - INFO - Screenshot saved to screenshots/unknown.png
+2025-03-31 11:00:19,396 - INFO - Clicked on tab: button:has-text("Ingredients")
+2025-03-31 11:00:20,940 - WARNING - Error with ingredients selector .tab-content:has-text("Ingredients"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:21,061 - WARNING - Error with details selector .tab-content:has-text("Product details"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:21,199 - WARNING - Error with how to use selector .tab-content:has-text("How to use"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:21,394 - WARNING - Error with hazards selector .tab-content:has-text("Warnings"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:21,395 - INFO - Successfully scraped: new in skincare
+2025-03-31 11:00:21,395 - INFO - 
+==================================================
+Scraping product 3/3: https://www.boots.com/beauty/skincare/korean-skincare
+==================================================
+2025-03-31 11:00:21,395 - INFO - Waiting 2.82 seconds...
+2025-03-31 11:00:24,220 - INFO - Navigating to: https://www.boots.com/beauty/skincare/korean-skincare
+2025-03-31 11:00:27,378 - INFO - Screenshot saved to screenshots/unknown.png
+2025-03-31 11:00:28,031 - INFO - Clicked on tab: button:has-text("Ingredients")
+2025-03-31 11:00:29,564 - WARNING - Error with ingredients selector .tab-content:has-text("Ingredients"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:29,698 - WARNING - Error with details selector .tab-content:has-text("Product details"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:29,844 - WARNING - Error with how to use selector .tab-content:has-text("How to use"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:30,043 - WARNING - Error with hazards selector .tab-content:has-text("Warnings"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:00:30,043 - INFO - Successfully scraped: Korean Skincare
+2025-03-31 11:00:30,251 - INFO - Data saved to boots_products.csv
+2025-03-31 11:00:30,251 - INFO - 
+Scraping completed. Scraped 3 products.
+2025-03-31 11:00:30,251 - INFO - Data saved to boots_products.csv
+2025-03-31 11:00:30,251 - INFO - Success rate: 100.00% (3/3)
+2025-03-31 11:01:31,616 - INFO - Navigating to category page: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:01:33,894 - INFO - Screenshot saved to screenshots/category_page.png
+2025-03-31 11:01:33,894 - INFO - Scrolling to load more products...
+2025-03-31 11:01:39,663 - INFO - Found 44 potential product cards on the page
+2025-03-31 11:01:39,664 - INFO - Found product URL from card: https://www.boots.com/clinique-moisture-surge--active-glow-serum-50ml-10355378
+2025-03-31 11:01:39,664 - INFO - Found product URL from card: https://www.boots.com/dior-capture-day-cream-ritual-10359124
+2025-03-31 11:01:39,664 - INFO - Found product URL from card: https://www.boots.com/lancome-genifique-face-set-star-gift-10357919
+2025-03-31 11:01:39,664 - INFO - Found 3 product URLs
+2025-03-31 11:01:39,900 - INFO - Scraping 3 product URLs
+2025-03-31 11:01:40,645 - INFO - 
+==================================================
+Scraping product 1/3: https://www.boots.com/clinique-moisture-surge--active-glow-serum-50ml-10355378
+==================================================
+2025-03-31 11:01:40,645 - INFO - Waiting 2.60 seconds...
+2025-03-31 11:01:43,244 - INFO - Navigating to: https://www.boots.com/clinique-moisture-surge--active-glow-serum-50ml-10355378
+2025-03-31 11:01:49,037 - INFO - Screenshot saved to screenshots/50.png
+2025-03-31 11:01:49,605 - WARNING - Error with ingredients selector .tab-content:has-text("Ingredients"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:01:49,643 - INFO - Found product details
+2025-03-31 11:01:49,726 - WARNING - Error with how to use selector .tab-content:has-text("How to use"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:01:49,858 - WARNING - Error with hazards selector .tab-content:has-text("Warnings"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:01:49,858 - INFO - Successfully scraped: Clinique Moisture Surge™ Active Glow Serum 50ml
+2025-03-31 11:01:49,858 - INFO - 
+==================================================
+Scraping product 2/3: https://www.boots.com/dior-capture-day-cream-ritual-10359124
+==================================================
+2025-03-31 11:01:49,858 - INFO - Waiting 2.97 seconds...
+2025-03-31 11:01:52,828 - INFO - Navigating to: https://www.boots.com/dior-capture-day-cream-ritual-10359124
+2025-03-31 11:01:56,646 - INFO - Screenshot saved to screenshots/10359124.png
+2025-03-31 11:01:57,228 - WARNING - Error with ingredients selector .tab-content:has-text("Ingredients"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:01:57,287 - WARNING - Error with details selector .tab-content:has-text("Product details"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:01:57,364 - WARNING - Error with how to use selector .tab-content:has-text("How to use"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:01:57,481 - WARNING - Error with hazards selector .tab-content:has-text("Warnings"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:01:57,481 - INFO - Successfully scraped: DIOR Capture Day Cream Ritual
+2025-03-31 11:01:57,482 - INFO - 
+==================================================
+Scraping product 3/3: https://www.boots.com/lancome-genifique-face-set-star-gift-10357919
+==================================================
+2025-03-31 11:01:57,482 - INFO - Waiting 1.97 seconds...
+2025-03-31 11:01:59,449 - INFO - Navigating to: https://www.boots.com/lancome-genifique-face-set-star-gift-10357919
+2025-03-31 11:02:02,489 - INFO - Screenshot saved to screenshots/10357919.png
+2025-03-31 11:02:03,008 - WARNING - Error with ingredients selector .tab-content:has-text("Ingredients"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:02:03,085 - WARNING - Error with details selector .tab-content:has-text("Product details"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:02:03,168 - WARNING - Error with how to use selector .tab-content:has-text("How to use"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:02:03,291 - WARNING - Error with hazards selector .tab-content:has-text("Warnings"): ':has-text' pseudo-class is not implemented at this time
+2025-03-31 11:02:03,292 - INFO - Successfully scraped: Lancôme Génifique Glow Getters Star Gift Set
+2025-03-31 11:02:03,552 - INFO - Data saved to boots_products.csv
+2025-03-31 11:02:03,552 - INFO - 
+Scraping completed. Scraped 3 products.
+2025-03-31 11:02:03,552 - INFO - Data saved to boots_products.csv
+2025-03-31 11:02:03,552 - INFO - Success rate: 100.00% (3/3)
+2025-03-31 11:03:25,482 - INFO - Navigating to category page: https://www.boots.com/beauty/skincare/skincare-all-skincare
+2025-03-31 11:03:27,621 - INFO - Screenshot saved to screenshots/category_page.png
+2025-03-31 11:03:27,621 - INFO - Scrolling to load more products...
+2025-03-31 11:03:33,447 - INFO - Found 44 potential product cards on the page
+2025-03-31 11:03:33,447 - INFO - Found product URL from card: https://www.boots.com/clinique-moisture-surge--active-glow-serum-50ml-10355378
+2025-03-31 11:03:33,447 - INFO - Found product URL from card: https://www.boots.com/dior-capture-day-cream-ritual-10359124
+2025-03-31 11:03:33,447 - INFO - Found product URL from card: https://www.boots.com/lancome-genifique-face-set-star-gift-10357919
+2025-03-31 11:03:33,447 - INFO - Found 3 product URLs
+2025-03-31 11:03:33,683 - INFO - Scraping 3 product URLs
+2025-03-31 11:03:34,554 - INFO - 
+==================================================
+Scraping product 1/3: https://www.boots.com/clinique-moisture-surge--active-glow-serum-50ml-10355378
+==================================================
+2025-03-31 11:03:34,554 - INFO - Waiting 1.61 seconds...
+2025-03-31 11:03:36,168 - INFO - Navigating to: https://www.boots.com/clinique-moisture-surge--active-glow-serum-50ml-10355378
+2025-03-31 11:03:42,732 - INFO - Screenshot saved to screenshots/50.png
+2025-03-31 11:03:43,418 - INFO - Found ingredients after heading
+2025-03-31 11:03:43,460 - INFO - Found product details
+2025-03-31 11:03:43,761 - INFO - Found how to use after heading
+2025-03-31 11:03:44,063 - INFO - Found hazards and cautions after heading
+2025-03-31 11:03:44,066 - INFO - Found country of origin
+2025-03-31 11:03:44,066 - INFO - Successfully scraped: Clinique Moisture Surge™ Active Glow Serum 50ml
+2025-03-31 11:03:44,066 - INFO - 
+==================================================
+Scraping product 2/3: https://www.boots.com/dior-capture-day-cream-ritual-10359124
+==================================================
+2025-03-31 11:03:44,066 - INFO - Waiting 1.90 seconds...
+2025-03-31 11:03:45,971 - INFO - Navigating to: https://www.boots.com/dior-capture-day-cream-ritual-10359124
+2025-03-31 11:03:49,052 - INFO - Screenshot saved to screenshots/10359124.png
+2025-03-31 11:03:49,720 - INFO - Found ingredients after heading
+2025-03-31 11:03:49,895 - INFO - Found product details
+2025-03-31 11:03:49,924 - INFO - Found product details after heading
+2025-03-31 11:03:50,189 - INFO - Found how to use after heading
+2025-03-31 11:03:50,476 - INFO - Found hazards and cautions after heading
+2025-03-31 11:03:50,479 - INFO - Found country of origin
+2025-03-31 11:03:50,479 - INFO - Successfully scraped: DIOR Capture Day Cream Ritual
+2025-03-31 11:03:50,479 - INFO - 
+==================================================
+Scraping product 3/3: https://www.boots.com/lancome-genifique-face-set-star-gift-10357919
+==================================================
+2025-03-31 11:03:50,479 - INFO - Waiting 2.16 seconds...
+2025-03-31 11:03:52,642 - INFO - Navigating to: https://www.boots.com/lancome-genifique-face-set-star-gift-10357919
+2025-03-31 11:03:55,139 - INFO - Screenshot saved to screenshots/10357919.png
+2025-03-31 11:03:55,782 - INFO - Found ingredients after heading
+2025-03-31 11:03:55,959 - INFO - Found product details
+2025-03-31 11:03:55,990 - INFO - Found product details after heading
+2025-03-31 11:03:56,530 - INFO - Found how to use after heading
+2025-03-31 11:03:56,902 - INFO - Found hazards and cautions after heading
+2025-03-31 11:03:56,906 - INFO - Found country of origin
+2025-03-31 11:03:56,906 - INFO - Successfully scraped: Lancôme Génifique Glow Getters Star Gift Set
+2025-03-31 11:03:57,076 - INFO - Data saved to boots_products.csv
+2025-03-31 11:03:57,076 - INFO - 
+Scraping completed. Scraped 3 products.
+2025-03-31 11:03:57,076 - INFO - Data saved to boots_products.csv
+2025-03-31 11:03:57,076 - INFO - Success rate: 100.00% (3/3)
+2025-03-31 11:12:26,780 - INFO - Starting test scraper run
+2025-03-31 11:16:17,389 - INFO - Starting test scraper run
+2025-03-31 11:16:20,103 - INFO - Browser set up with user agent: Mozilla/5.0 (iPad; CPU OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+2025-03-31 11:16:20,103 - INFO - Finding category URLs
+2025-03-31 11:16:20,104 - INFO - Waiting 2.87 seconds before request...
+2025-03-31 11:16:27,629 - ERROR - Error running scraper: 'RobotsChecker' object has no attribute 'is_allowed'
+2025-03-31 11:16:27,751 - INFO - Scraping completed. Stats: {'pages_visited': 1, 'products_found': 0, 'products_scraped': 0, 'errors': 0, 'retries': 0, 'start_time': '2025-03-31T11:16:18.203582', 'end_time': '2025-03-31T11:16:27.751838', 'requests_made': 105}
+2025-03-31 11:16:27,751 - INFO - Test scraper run completed
+2025-03-31 11:17:07,297 - INFO - Starting test scraper run
+2025-03-31 11:17:07,648 - INFO - Read robots.txt from https://www.boots.com/robots.txt
+2025-03-31 11:17:09,319 - INFO - Browser set up with user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.1.1 Safari/605.1.15
+2025-03-31 11:17:09,319 - INFO - Finding category URLs
+2025-03-31 11:17:09,320 - INFO - Waiting 1.01 seconds before request...
+2025-03-31 11:17:15,192 - INFO - Found 75 category URLs
+2025-03-31 11:17:15,192 - INFO - Finding product URLs from category: https://www.boots.com/beauty/skincare/expert-skincare-/intolerant-skin
+2025-03-31 11:17:15,192 - INFO - Waiting 1.17 seconds before request...
+2025-03-31 11:17:21,202 - INFO - Scrolling to load more products...
+2025-03-31 11:17:26,935 - INFO - Found 29 potential product cards on the page
+2025-03-31 11:17:26,935 - INFO - Found 3 product URLs from category: https://www.boots.com/beauty/skincare/expert-skincare-/intolerant-skin
+2025-03-31 11:17:26,935 - INFO - Finding product URLs from category: https://www.boots.com/beauty/skincare/skin-type/menopause-skincare
+2025-03-31 11:17:26,935 - INFO - Waiting 1.22 seconds before request...
+2025-03-31 11:17:31,480 - INFO - Scrolling to load more products...
+2025-03-31 11:17:37,221 - INFO - Found 48 potential product cards on the page
+2025-03-31 11:17:37,222 - INFO - Found 2 product URLs from category: https://www.boots.com/beauty/skincare/skin-type/menopause-skincare
+2025-03-31 11:17:37,223 - INFO - Scraping 5 products
+2025-03-31 11:17:37,223 - INFO - Scraping product 1/5: https://www.boots.com/avene-thermal-spring-water-spray-for-sensitive-skin-50ml-10045175
+2025-03-31 11:17:37,223 - INFO - Scraping product: https://www.boots.com/avene-thermal-spring-water-spray-for-sensitive-skin-50ml-10045175
+2025-03-31 11:17:37,223 - INFO - Waiting 1.54 seconds before request...
+2025-03-31 11:17:53,134 - INFO - Found ingredients after heading
+2025-03-31 11:17:53,146 - INFO - Found ingredients using regex
+2025-03-31 11:17:53,434 - INFO - Found product details
+2025-03-31 11:17:53,895 - INFO - Found how to use after heading
+2025-03-31 11:17:53,930 - INFO - Found how to use using regex
+2025-03-31 11:17:54,458 - INFO - Found country of origin
+2025-03-31 11:17:54,459 - INFO - Successfully scraped: Avène Thermal Spring Water Spray for Sensitive Skin 50ml
+2025-03-31 11:17:54,459 - INFO - Scraping product 2/5: https://www.boots.com/vaseline-body-lotion-intensive-care-mature-skin-rejuvenation-400ml-10238671
+2025-03-31 11:17:54,459 - INFO - Scraping product: https://www.boots.com/vaseline-body-lotion-intensive-care-mature-skin-rejuvenation-400ml-10238671
+2025-03-31 11:17:54,459 - INFO - Waiting 1.49 seconds before request...
+2025-03-31 11:18:01,418 - INFO - Found ingredients after heading
+2025-03-31 11:18:01,422 - INFO - Found ingredients using regex
+2025-03-31 11:18:01,609 - INFO - Found product details
+2025-03-31 11:18:01,875 - INFO - Found how to use after heading
+2025-03-31 11:18:02,185 - INFO - Found country of origin
+2025-03-31 11:18:02,186 - INFO - Successfully scraped: Vaseline Intensive Care Mature Skin Rejuvenation Body Lotion 400 ml
+2025-03-31 11:18:02,186 - INFO - Scraping product 3/5: https://www.boots.com/no7-menopause-skincare-protect-and-hydrate-day-cream-50ml-10307548
+2025-03-31 11:18:02,186 - INFO - Scraping product: https://www.boots.com/no7-menopause-skincare-protect-and-hydrate-day-cream-50ml-10307548
+2025-03-31 11:18:02,186 - INFO - Waiting 2.32 seconds before request...
+2025-03-31 11:18:09,711 - INFO - Found ingredients after heading
+2025-03-31 11:18:09,749 - INFO - Found product details
+2025-03-31 11:18:09,995 - INFO - Found how to use after heading
+2025-03-31 11:18:10,277 - INFO - Found hazards and cautions after heading
+2025-03-31 11:18:10,280 - INFO - Found country of origin
+2025-03-31 11:18:10,280 - INFO - Successfully scraped: No7 Menopause Skincare Protect and Hydrate Day Cream 50ml
+2025-03-31 11:18:10,280 - INFO - Scraping product 4/5: https://www.boots.com/avene-cicalfate-plus-restroritive-cream-40ml-10275275
+2025-03-31 11:18:10,280 - INFO - Scraping product: https://www.boots.com/avene-cicalfate-plus-restroritive-cream-40ml-10275275
+2025-03-31 11:18:10,280 - INFO - Waiting 2.14 seconds before request...
+2025-03-31 11:18:16,648 - INFO - Found ingredients after heading
+2025-03-31 11:18:16,812 - INFO - Found product details
+2025-03-31 11:18:17,085 - INFO - Found how to use after heading
+2025-03-31 11:18:17,375 - INFO - Found hazards and cautions after heading
+2025-03-31 11:18:17,380 - INFO - Found country of origin
+2025-03-31 11:18:17,380 - INFO - Successfully scraped: Avène Cicalfate+ Restorative Protective Cream for Very Sensitive Skin 40ml
+2025-03-31 11:18:17,380 - INFO - Scraping product 5/5: https://www.boots.com/bioderma-sensibio-cleansing-micellar-water-sensitive-skin-250ml-10202361
+2025-03-31 11:18:17,380 - INFO - Scraping product: https://www.boots.com/bioderma-sensibio-cleansing-micellar-water-sensitive-skin-250ml-10202361
+2025-03-31 11:18:17,380 - INFO - Waiting 2.74 seconds before request...
+2025-03-31 11:18:24,833 - INFO - Found ingredients after heading
+2025-03-31 11:18:24,837 - INFO - Found ingredients using regex
+2025-03-31 11:18:25,038 - INFO - Found product details
+2025-03-31 11:18:25,886 - INFO - Found how to use after heading
+2025-03-31 11:18:25,891 - INFO - Found how to use using regex
+2025-03-31 11:18:26,218 - INFO - Found hazards and cautions after heading
+2025-03-31 11:18:26,221 - INFO - Found country of origin
+2025-03-31 11:18:26,222 - INFO - Successfully scraped: Bioderma Sensibio Cleansing Micellar Water Sensitive Skin 250ML
+2025-03-31 11:18:26,222 - INFO - Scraped 5 products
+2025-03-31 11:18:26,249 - INFO - Saved 5 products to data/boots_products_20250331_111826.csv
+2025-03-31 11:18:26,252 - INFO - Saved 172 ingredients to data/boots_ingredients_20250331_111826.csv
+2025-03-31 11:18:26,252 - INFO - Saved stats to data/boots_stats_20250331_111826.json
+2025-03-31 11:18:26,252 - INFO - Saved 75 category URLs to data/boots_category_urls_20250331_111826.txt
+2025-03-31 11:18:26,252 - INFO - Saved 5 product URLs to data/boots_product_urls_20250331_111826.txt
+2025-03-31 11:18:27,113 - INFO - Scraping completed. Stats: {'pages_visited': 8, 'products_found': 5, 'products_scraped': 0, 'errors': 0, 'retries': 0, 'start_time': '2025-03-31T11:17:07.648815', 'end_time': '2025-03-31T11:18:27.113551', 'requests_made': 1402, 'categories_found': 75}
+2025-03-31 11:18:27,113 - INFO - Test scraper run completed
+2025-03-31 11:26:54,685 - INFO - Starting 5-star product scraper
+2025-03-31 11:26:55,196 - INFO - Read robots.txt from https://www.boots.com/robots.txt
+2025-03-31 11:26:57,182 - INFO - Browser set up with user agent: Mozilla/5.0 (iPad; CPU OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+2025-03-31 11:26:57,182 - INFO - Finding 5-star rated skincare product URLs
+2025-03-31 11:26:57,182 - INFO - Waiting 5.75 seconds before request...
+2025-03-31 11:27:07,400 - INFO - Using default count of 285 5-star rated products
+2025-03-31 11:27:07,400 - INFO - Scrolling to load more products (scroll 1/12)...
+2025-03-31 11:27:12,892 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:12,893 - INFO - Scrolling to load more products (scroll 2/12)...
+2025-03-31 11:27:18,370 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:18,371 - INFO - Scrolling to load more products (scroll 3/12)...
+2025-03-31 11:27:23,902 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:23,902 - INFO - Scrolling to load more products (scroll 4/12)...
+2025-03-31 11:27:29,411 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:29,412 - INFO - Scrolling to load more products (scroll 5/12)...
+2025-03-31 11:27:34,923 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:34,923 - INFO - Scrolling to load more products (scroll 6/12)...
+2025-03-31 11:27:40,480 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:40,480 - INFO - Scrolling to load more products (scroll 7/12)...
+2025-03-31 11:27:46,047 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:46,047 - INFO - Scrolling to load more products (scroll 8/12)...
+2025-03-31 11:27:51,573 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:51,574 - INFO - Scrolling to load more products (scroll 9/12)...
+2025-03-31 11:27:57,139 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:27:57,139 - INFO - Scrolling to load more products (scroll 10/12)...
+2025-03-31 11:28:02,681 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:28:02,681 - INFO - Scrolling to load more products (scroll 11/12)...
+2025-03-31 11:28:08,219 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:28:08,219 - INFO - Scrolling to load more products (scroll 12/12)...
+2025-03-31 11:28:13,746 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:28:13,746 - INFO - Found 0 5-star product URLs
+2025-03-31 11:28:13,747 - INFO - Scraping 0 products
+2025-03-31 11:28:13,747 - INFO - Scraped 0 products
+2025-03-31 11:28:13,747 - INFO - Saved stats to data/boots_stats_20250331_112813.json
+2025-03-31 11:28:13,747 - INFO - Saved 0 category URLs to data/boots_category_urls_20250331_112813.txt
+2025-03-31 11:28:13,747 - INFO - Saved 0 product URLs to data/boots_product_urls_20250331_112813.txt
+2025-03-31 11:28:13,916 - INFO - 5-star scraping completed. Stats: {'pages_visited': 1, 'products_found': 0, 'products_scraped': 0, 'errors': 0, 'retries': 0, 'start_time': '2025-03-31T11:26:55.196115', 'end_time': '2025-03-31T11:28:13.916719', 'requests_made': 93}
+2025-03-31 11:28:13,916 - INFO - 5-star product scraper completed
+2025-03-31 11:28:35,954 - INFO - Starting 5-star product scraper
+2025-03-31 11:28:35,954 - INFO - Command line arguments: Namespace(headless=True, use_proxies=False, respect_robots=True, max_products=None, min_delay=3.0, max_delay=8.0, max_retries=5, batch_size=50, resume_from=0, data_dir='data', screenshot_dir='screenshots', cache_dir='cache', log_dir='logs', test=True)
+2025-03-31 11:28:35,954 - INFO - Running in test mode with 10 products
+2025-03-31 11:28:36,313 - INFO - Read robots.txt from https://www.boots.com/robots.txt
+2025-03-31 11:28:36,313 - INFO - Running in batch mode with batch size 50
+2025-03-31 11:28:36,313 - INFO - Collecting all product URLs first
+2025-03-31 11:28:37,063 - INFO - Browser set up with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+2025-03-31 11:28:37,063 - INFO - Finding 5-star rated skincare product URLs
+2025-03-31 11:28:37,063 - INFO - Waiting 7.59 seconds before request...
+2025-03-31 11:28:48,843 - INFO - Using default count of 285 5-star rated products
+2025-03-31 11:28:48,844 - INFO - Scrolling to load more products (scroll 1/12)...
+2025-03-31 11:28:54,318 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:28:54,318 - INFO - Scrolling to load more products (scroll 2/12)...
+2025-03-31 11:28:59,779 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:28:59,779 - INFO - Scrolling to load more products (scroll 3/12)...
+2025-03-31 11:29:05,282 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:05,283 - INFO - Scrolling to load more products (scroll 4/12)...
+2025-03-31 11:29:10,791 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:10,791 - INFO - Scrolling to load more products (scroll 5/12)...
+2025-03-31 11:29:16,313 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:16,313 - INFO - Scrolling to load more products (scroll 6/12)...
+2025-03-31 11:29:21,807 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:21,808 - INFO - Scrolling to load more products (scroll 7/12)...
+2025-03-31 11:29:27,337 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:27,337 - INFO - Scrolling to load more products (scroll 8/12)...
+2025-03-31 11:29:33,188 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:33,189 - INFO - Scrolling to load more products (scroll 9/12)...
+2025-03-31 11:29:38,812 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:38,813 - INFO - Scrolling to load more products (scroll 10/12)...
+2025-03-31 11:29:44,304 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:44,304 - INFO - Scrolling to load more products (scroll 11/12)...
+2025-03-31 11:29:49,777 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:49,777 - INFO - Scrolling to load more products (scroll 12/12)...
+2025-03-31 11:29:55,355 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:29:55,355 - INFO - Found 0 5-star product URLs
+2025-03-31 11:29:55,356 - INFO - Found 0 5-star product URLs
+2025-03-31 11:29:55,356 - INFO - Saved URLs to data/boots_5star_urls_20250331_112955.txt
+2025-03-31 11:29:55,383 - INFO - 5-star product scraper completed successfully
+2025-03-31 11:33:13,327 - INFO - Starting debug session for finding 5-star product URLs
+2025-03-31 11:33:15,177 - INFO - Navigating to https://www.boots.com/beauty/skincare/5-star-rated-skincare
+2025-03-31 11:33:19,030 - INFO - Took screenshot of initial page
+2025-03-31 11:33:19,030 - INFO - Checking for cookie consent dialog
+2025-03-31 11:33:19,045 - INFO - Trying to find total product count
+2025-03-31 11:33:29,052 - ERROR - Error getting product count: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".plp__results-count") to be visible
+
+2025-03-31 11:33:29,053 - INFO - Starting to scroll to load all products
+2025-03-31 11:33:29,063 - INFO - Initial product count: 0
+2025-03-31 11:33:29,209 - INFO - Scroll attempt 1/30, current products: 0/285
+2025-03-31 11:33:32,242 - INFO - After scroll 1, product count: 0
+2025-03-31 11:33:32,242 - WARNING - Product count hasn't increased after scroll 1
+2025-03-31 11:33:32,263 - INFO - Trying JavaScript scroll
+2025-03-31 11:33:34,269 - INFO - Scroll attempt 2/30, current products: 0/285
+2025-03-31 11:33:37,299 - INFO - After scroll 2, product count: 0
+2025-03-31 11:33:37,299 - WARNING - Product count hasn't increased after scroll 2
+2025-03-31 11:33:37,312 - INFO - Trying JavaScript scroll
+2025-03-31 11:33:39,317 - INFO - Scroll attempt 3/30, current products: 0/285
+2025-03-31 11:33:42,338 - INFO - After scroll 3, product count: 0
+2025-03-31 11:33:42,338 - WARNING - Product count hasn't increased after scroll 3
+2025-03-31 11:33:42,355 - INFO - Trying JavaScript scroll
+2025-03-31 11:33:44,358 - INFO - Scroll attempt 4/30, current products: 0/285
+2025-03-31 11:33:47,376 - INFO - After scroll 4, product count: 0
+2025-03-31 11:33:47,376 - WARNING - Product count hasn't increased after scroll 4
+2025-03-31 11:33:47,392 - INFO - Trying JavaScript scroll
+2025-03-31 11:33:49,396 - INFO - Scroll attempt 5/30, current products: 0/285
+2025-03-31 11:33:52,405 - INFO - After scroll 5, product count: 0
+2025-03-31 11:33:52,484 - WARNING - Product count hasn't increased after scroll 5
+2025-03-31 11:33:52,495 - INFO - Trying JavaScript scroll
+2025-03-31 11:33:54,497 - INFO - Scroll attempt 6/30, current products: 0/285
+2025-03-31 11:33:57,506 - INFO - After scroll 6, product count: 0
+2025-03-31 11:33:57,506 - WARNING - Product count hasn't increased after scroll 6
+2025-03-31 11:33:57,515 - INFO - Trying JavaScript scroll
+2025-03-31 11:33:59,519 - INFO - Scroll attempt 7/30, current products: 0/285
+2025-03-31 11:34:02,538 - INFO - After scroll 7, product count: 0
+2025-03-31 11:34:02,539 - WARNING - Product count hasn't increased after scroll 7
+2025-03-31 11:34:02,552 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:04,555 - INFO - Scroll attempt 8/30, current products: 0/285
+2025-03-31 11:34:07,563 - INFO - After scroll 8, product count: 0
+2025-03-31 11:34:07,563 - WARNING - Product count hasn't increased after scroll 8
+2025-03-31 11:34:07,573 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:09,577 - INFO - Scroll attempt 9/30, current products: 0/285
+2025-03-31 11:34:12,599 - INFO - After scroll 9, product count: 0
+2025-03-31 11:34:12,599 - WARNING - Product count hasn't increased after scroll 9
+2025-03-31 11:34:12,617 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:14,619 - INFO - Scroll attempt 10/30, current products: 0/285
+2025-03-31 11:34:17,630 - INFO - After scroll 10, product count: 0
+2025-03-31 11:34:17,689 - WARNING - Product count hasn't increased after scroll 10
+2025-03-31 11:34:17,700 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:19,703 - INFO - Scroll attempt 11/30, current products: 0/285
+2025-03-31 11:34:22,718 - INFO - After scroll 11, product count: 0
+2025-03-31 11:34:22,718 - WARNING - Product count hasn't increased after scroll 11
+2025-03-31 11:34:22,734 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:24,747 - INFO - Scroll attempt 12/30, current products: 0/285
+2025-03-31 11:34:27,761 - INFO - After scroll 12, product count: 0
+2025-03-31 11:34:27,762 - WARNING - Product count hasn't increased after scroll 12
+2025-03-31 11:34:27,774 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:29,777 - INFO - Scroll attempt 13/30, current products: 0/285
+2025-03-31 11:34:31,202 - INFO - Starting debug session for finding 5-star product URLs
+2025-03-31 11:34:32,795 - INFO - After scroll 13, product count: 0
+2025-03-31 11:34:32,796 - WARNING - Product count hasn't increased after scroll 13
+2025-03-31 11:34:32,808 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:32,970 - INFO - Navigating to https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31 11:34:34,811 - INFO - Scroll attempt 14/30, current products: 0/285
+2025-03-31 11:34:37,822 - INFO - After scroll 14, product count: 0
+2025-03-31 11:34:37,822 - WARNING - Product count hasn't increased after scroll 14
+2025-03-31 11:34:37,832 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:37,902 - INFO - Took screenshot of initial page
+2025-03-31 11:34:37,903 - INFO - Checking for cookie consent dialog
+2025-03-31 11:34:37,927 - INFO - Trying to find total product count
+2025-03-31 11:34:39,836 - INFO - Scroll attempt 15/30, current products: 0/285
+2025-03-31 11:34:42,874 - INFO - After scroll 15, product count: 0
+2025-03-31 11:34:42,940 - WARNING - Product count hasn't increased after scroll 15
+2025-03-31 11:34:42,952 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:44,955 - INFO - Scroll attempt 16/30, current products: 0/285
+2025-03-31 11:34:47,932 - ERROR - Error getting product count: Page.wait_for_selector: Timeout 10000ms exceeded.
+Call log:
+  - waiting for locator(".plp__results-count") to be visible
+
+2025-03-31 11:34:47,932 - INFO - Starting to scroll to load all products
+2025-03-31 11:34:47,950 - INFO - Initial product count: 0
+2025-03-31 11:34:47,967 - INFO - After scroll 16, product count: 0
+2025-03-31 11:34:47,967 - WARNING - Product count hasn't increased after scroll 16
+2025-03-31 11:34:47,984 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:48,050 - INFO - Scroll attempt 1/30, current products: 0/285
+2025-03-31 11:34:49,989 - INFO - Scroll attempt 17/30, current products: 0/285
+2025-03-31 11:34:51,070 - INFO - After scroll 1, product count: 0
+2025-03-31 11:34:51,070 - WARNING - Product count hasn't increased after scroll 1
+2025-03-31 11:34:51,094 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:52,999 - INFO - After scroll 17, product count: 0
+2025-03-31 11:34:53,000 - WARNING - Product count hasn't increased after scroll 17
+2025-03-31 11:34:53,010 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:53,097 - INFO - Scroll attempt 2/30, current products: 0/285
+2025-03-31 11:34:55,013 - INFO - Scroll attempt 18/30, current products: 0/285
+2025-03-31 11:34:56,112 - INFO - After scroll 2, product count: 0
+2025-03-31 11:34:56,112 - WARNING - Product count hasn't increased after scroll 2
+2025-03-31 11:34:56,133 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:58,026 - INFO - After scroll 18, product count: 0
+2025-03-31 11:34:58,026 - WARNING - Product count hasn't increased after scroll 18
+2025-03-31 11:34:58,042 - INFO - Trying JavaScript scroll
+2025-03-31 11:34:58,136 - INFO - Scroll attempt 3/30, current products: 0/285
+2025-03-31 11:35:00,045 - INFO - Scroll attempt 19/30, current products: 0/285
+2025-03-31 11:35:01,149 - INFO - After scroll 3, product count: 0
+2025-03-31 11:35:01,149 - WARNING - Product count hasn't increased after scroll 3
+2025-03-31 11:35:01,167 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:03,060 - INFO - After scroll 19, product count: 0
+2025-03-31 11:35:03,061 - WARNING - Product count hasn't increased after scroll 19
+2025-03-31 11:35:03,077 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:03,169 - INFO - Scroll attempt 4/30, current products: 0/285
+2025-03-31 11:35:05,080 - INFO - Scroll attempt 20/30, current products: 0/285
+2025-03-31 11:35:06,183 - INFO - After scroll 4, product count: 0
+2025-03-31 11:35:06,184 - WARNING - Product count hasn't increased after scroll 4
+2025-03-31 11:35:06,202 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:08,091 - INFO - After scroll 20, product count: 0
+2025-03-31 11:35:08,159 - WARNING - Product count hasn't increased after scroll 20
+2025-03-31 11:35:08,169 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:08,204 - INFO - Scroll attempt 5/30, current products: 0/285
+2025-03-31 11:35:10,173 - INFO - Scroll attempt 21/30, current products: 0/285
+2025-03-31 11:35:11,219 - INFO - After scroll 5, product count: 0
+2025-03-31 11:35:11,536 - WARNING - Product count hasn't increased after scroll 5
+2025-03-31 11:35:11,566 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:13,185 - INFO - After scroll 21, product count: 0
+2025-03-31 11:35:13,185 - WARNING - Product count hasn't increased after scroll 21
+2025-03-31 11:35:13,198 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:13,570 - INFO - Scroll attempt 6/30, current products: 0/285
+2025-03-31 11:35:15,202 - INFO - Scroll attempt 22/30, current products: 0/285
+2025-03-31 11:35:15,560 - INFO - Starting Boots.com 5-star skincare products scraper
+2025-03-31 11:35:15,560 - INFO - Command line arguments: Namespace(headless=False, max_products=None, batch_size=50, test=True)
+2025-03-31 11:35:15,560 - INFO - Running in test mode with 10 products
+2025-03-31 11:35:16,007 - INFO - Read robots.txt from https://www.boots.com/robots.txt
+2025-03-31 11:35:16,637 - INFO - After scroll 6, product count: 0
+2025-03-31 11:35:16,638 - WARNING - Product count hasn't increased after scroll 6
+2025-03-31 11:35:16,668 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:18,243 - INFO - After scroll 22, product count: 0
+2025-03-31 11:35:18,245 - WARNING - Product count hasn't increased after scroll 22
+2025-03-31 11:35:18,277 - INFO - Browser set up with user agent: Mozilla/5.0 (iPad; CPU OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+2025-03-31 11:35:18,278 - INFO - Finding all 5-star product URLs
+2025-03-31 11:35:18,278 - INFO - Finding 5-star rated skincare product URLs
+2025-03-31 11:35:18,278 - ERROR - Error in scraper: 'BootsScraper' object has no attribute 'random_delay'
+2025-03-31 11:35:18,278 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:18,283 - ERROR - Traceback (most recent call last):
+  File "/Users/jack/Documents/Codebase/Claude Code/DermaIQ/Scraping/scrape_boots_5star.py", line 72, in main
+    product_urls = await scraper.find_5star_product_urls(max_products=args.max_products)
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/jack/Documents/Codebase/Claude Code/DermaIQ/Scraping/boots_advanced_scraper.py", line 1512, in find_5star_product_urls
+    await self.random_delay()
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'BootsScraper' object has no attribute 'random_delay'
+
+2025-03-31 11:35:18,674 - INFO - Scroll attempt 7/30, current products: 0/285
+2025-03-31 11:35:20,298 - INFO - Scroll attempt 23/30, current products: 0/285
+2025-03-31 11:35:21,700 - INFO - After scroll 7, product count: 0
+2025-03-31 11:35:21,700 - WARNING - Product count hasn't increased after scroll 7
+2025-03-31 11:35:21,723 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:23,319 - INFO - After scroll 23, product count: 0
+2025-03-31 11:35:23,319 - WARNING - Product count hasn't increased after scroll 23
+2025-03-31 11:35:23,333 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:23,726 - INFO - Scroll attempt 8/30, current products: 0/285
+2025-03-31 11:35:25,336 - INFO - Scroll attempt 24/30, current products: 0/285
+2025-03-31 11:35:26,741 - INFO - After scroll 8, product count: 0
+2025-03-31 11:35:26,742 - WARNING - Product count hasn't increased after scroll 8
+2025-03-31 11:35:26,761 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:28,345 - INFO - After scroll 24, product count: 0
+2025-03-31 11:35:28,345 - WARNING - Product count hasn't increased after scroll 24
+2025-03-31 11:35:28,356 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:28,764 - INFO - Scroll attempt 9/30, current products: 0/285
+2025-03-31 11:35:30,359 - INFO - Scroll attempt 25/30, current products: 0/285
+2025-03-31 11:35:31,779 - INFO - After scroll 9, product count: 0
+2025-03-31 11:35:31,779 - WARNING - Product count hasn't increased after scroll 9
+2025-03-31 11:35:31,801 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:33,368 - INFO - After scroll 25, product count: 0
+2025-03-31 11:35:33,435 - WARNING - Product count hasn't increased after scroll 25
+2025-03-31 11:35:33,446 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:33,835 - INFO - Scroll attempt 10/30, current products: 0/285
+2025-03-31 11:35:35,449 - INFO - Scroll attempt 26/30, current products: 0/285
+2025-03-31 11:35:36,885 - INFO - After scroll 10, product count: 0
+2025-03-31 11:35:36,972 - WARNING - Product count hasn't increased after scroll 10
+2025-03-31 11:35:36,995 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:38,460 - INFO - After scroll 26, product count: 0
+2025-03-31 11:35:38,460 - WARNING - Product count hasn't increased after scroll 26
+2025-03-31 11:35:38,471 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:38,997 - INFO - Scroll attempt 11/30, current products: 0/285
+2025-03-31 11:35:40,474 - INFO - Scroll attempt 27/30, current products: 0/285
+2025-03-31 11:35:42,012 - INFO - After scroll 11, product count: 0
+2025-03-31 11:35:42,012 - WARNING - Product count hasn't increased after scroll 11
+2025-03-31 11:35:42,030 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:43,487 - INFO - After scroll 27, product count: 0
+2025-03-31 11:35:43,487 - WARNING - Product count hasn't increased after scroll 27
+2025-03-31 11:35:43,499 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:44,033 - INFO - Scroll attempt 12/30, current products: 0/285
+2025-03-31 11:35:45,502 - INFO - Scroll attempt 28/30, current products: 0/285
+2025-03-31 11:35:47,046 - INFO - After scroll 12, product count: 0
+2025-03-31 11:35:47,046 - WARNING - Product count hasn't increased after scroll 12
+2025-03-31 11:35:47,067 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:48,513 - INFO - After scroll 28, product count: 0
+2025-03-31 11:35:48,513 - WARNING - Product count hasn't increased after scroll 28
+2025-03-31 11:35:48,523 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:49,070 - INFO - Scroll attempt 13/30, current products: 0/285
+2025-03-31 11:35:50,411 - INFO - Starting Boots.com 5-star skincare products scraper
+2025-03-31 11:35:50,411 - INFO - Command line arguments: Namespace(headless=False, max_products=None, batch_size=50, test=True)
+2025-03-31 11:35:50,411 - INFO - Running in test mode with 10 products
+2025-03-31 11:35:50,527 - INFO - Scroll attempt 29/30, current products: 0/285
+2025-03-31 11:35:50,682 - INFO - Read robots.txt from https://www.boots.com/robots.txt
+2025-03-31 11:35:51,874 - INFO - Browser set up with user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+2025-03-31 11:35:51,875 - INFO - Finding all 5-star product URLs
+2025-03-31 11:35:51,875 - INFO - Finding 5-star rated skincare product URLs
+2025-03-31 11:35:52,226 - INFO - After scroll 13, product count: 0
+2025-03-31 11:35:52,227 - WARNING - Product count hasn't increased after scroll 13
+2025-03-31 11:35:52,277 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:53,773 - INFO - After scroll 29, product count: 0
+2025-03-31 11:35:53,773 - WARNING - Product count hasn't increased after scroll 29
+2025-03-31 11:35:53,864 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:54,285 - INFO - Scroll attempt 14/30, current products: 0/285
+2025-03-31 11:35:55,869 - INFO - Scroll attempt 30/30, current products: 0/285
+2025-03-31 11:35:57,308 - INFO - After scroll 14, product count: 0
+2025-03-31 11:35:57,308 - WARNING - Product count hasn't increased after scroll 14
+2025-03-31 11:35:57,328 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:58,323 - INFO - Waiting 5.61 seconds before request...
+2025-03-31 11:35:58,883 - INFO - After scroll 30, product count: 0
+2025-03-31 11:35:58,950 - WARNING - Product count hasn't increased after scroll 30
+2025-03-31 11:35:58,961 - INFO - Trying JavaScript scroll
+2025-03-31 11:35:59,332 - INFO - Scroll attempt 15/30, current products: 0/285
+2025-03-31 11:36:01,029 - INFO - Final product count after scrolling: 0/285
+2025-03-31 11:36:01,029 - INFO - Extracting product URLs
+2025-03-31 11:36:01,716 - INFO - Found 0 product elements with BeautifulSoup
+2025-03-31 11:36:01,717 - INFO - Saved 0 product URLs to data/boots_5star_urls_20250331_113313.txt
+2025-03-31 11:36:01,858 - ERROR - Failed to find any 5-star product URLs
+2025-03-31 11:36:02,351 - INFO - After scroll 15, product count: 0
+2025-03-31 11:36:02,434 - WARNING - Product count hasn't increased after scroll 15
+2025-03-31 11:36:02,457 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:04,461 - INFO - Scroll attempt 16/30, current products: 0/285
+2025-03-31 11:36:07,473 - INFO - After scroll 16, product count: 0
+2025-03-31 11:36:07,473 - WARNING - Product count hasn't increased after scroll 16
+2025-03-31 11:36:07,491 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:08,656 - INFO - Using default count of 285 5-star rated products
+2025-03-31 11:36:08,657 - INFO - Scrolling to load more products (scroll 1/12)...
+2025-03-31 11:36:09,495 - INFO - Scroll attempt 17/30, current products: 0/285
+2025-03-31 11:36:12,508 - INFO - After scroll 17, product count: 0
+2025-03-31 11:36:12,509 - WARNING - Product count hasn't increased after scroll 17
+2025-03-31 11:36:12,527 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:14,129 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:14,129 - INFO - Scrolling to load more products (scroll 2/12)...
+2025-03-31 11:36:14,530 - INFO - Scroll attempt 18/30, current products: 0/285
+2025-03-31 11:36:17,546 - INFO - After scroll 18, product count: 0
+2025-03-31 11:36:17,547 - WARNING - Product count hasn't increased after scroll 18
+2025-03-31 11:36:17,567 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:19,571 - INFO - Scroll attempt 19/30, current products: 0/285
+2025-03-31 11:36:19,612 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:19,612 - INFO - Scrolling to load more products (scroll 3/12)...
+2025-03-31 11:36:22,643 - INFO - After scroll 19, product count: 0
+2025-03-31 11:36:22,643 - WARNING - Product count hasn't increased after scroll 19
+2025-03-31 11:36:22,835 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:25,146 - INFO - Scroll attempt 20/30, current products: 0/285
+2025-03-31 11:36:25,946 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:25,946 - INFO - Scrolling to load more products (scroll 4/12)...
+2025-03-31 11:36:28,238 - INFO - After scroll 20, product count: 0
+2025-03-31 11:36:28,386 - WARNING - Product count hasn't increased after scroll 20
+2025-03-31 11:36:28,450 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:30,460 - INFO - Scroll attempt 21/30, current products: 0/285
+2025-03-31 11:36:31,542 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:31,543 - INFO - Scrolling to load more products (scroll 5/12)...
+2025-03-31 11:36:33,509 - INFO - After scroll 21, product count: 0
+2025-03-31 11:36:33,509 - WARNING - Product count hasn't increased after scroll 21
+2025-03-31 11:36:33,555 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:35,558 - INFO - Scroll attempt 22/30, current products: 0/285
+2025-03-31 11:36:37,036 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:37,036 - INFO - Scrolling to load more products (scroll 6/12)...
+2025-03-31 11:36:38,579 - INFO - After scroll 22, product count: 0
+2025-03-31 11:36:38,580 - WARNING - Product count hasn't increased after scroll 22
+2025-03-31 11:36:38,610 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:40,614 - INFO - Scroll attempt 23/30, current products: 0/285
+2025-03-31 11:36:42,648 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:42,648 - INFO - Scrolling to load more products (scroll 7/12)...
+2025-03-31 11:36:43,639 - INFO - After scroll 23, product count: 0
+2025-03-31 11:36:43,639 - WARNING - Product count hasn't increased after scroll 23
+2025-03-31 11:36:43,665 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:45,674 - INFO - Scroll attempt 24/30, current products: 0/285
+2025-03-31 11:36:48,185 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:48,185 - INFO - Scrolling to load more products (scroll 8/12)...
+2025-03-31 11:36:48,697 - INFO - After scroll 24, product count: 0
+2025-03-31 11:36:48,697 - WARNING - Product count hasn't increased after scroll 24
+2025-03-31 11:36:48,719 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:50,722 - INFO - Scroll attempt 25/30, current products: 0/285
+2025-03-31 11:36:53,715 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:53,716 - INFO - Scrolling to load more products (scroll 9/12)...
+2025-03-31 11:36:53,738 - INFO - After scroll 25, product count: 0
+2025-03-31 11:36:53,828 - WARNING - Product count hasn't increased after scroll 25
+2025-03-31 11:36:53,869 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:55,872 - INFO - Scroll attempt 26/30, current products: 0/285
+2025-03-31 11:36:58,887 - INFO - After scroll 26, product count: 0
+2025-03-31 11:36:58,887 - WARNING - Product count hasn't increased after scroll 26
+2025-03-31 11:36:58,904 - INFO - Trying JavaScript scroll
+2025-03-31 11:36:59,395 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:36:59,395 - INFO - Scrolling to load more products (scroll 10/12)...
+2025-03-31 11:37:00,908 - INFO - Scroll attempt 27/30, current products: 0/285
+2025-03-31 11:37:03,989 - INFO - After scroll 27, product count: 0
+2025-03-31 11:37:03,990 - WARNING - Product count hasn't increased after scroll 27
+2025-03-31 11:37:04,473 - INFO - Trying JavaScript scroll
+2025-03-31 11:37:05,837 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:05,837 - INFO - Scrolling to load more products (scroll 11/12)...
+2025-03-31 11:37:06,496 - INFO - Scroll attempt 28/30, current products: 0/285
+2025-03-31 11:37:09,058 - INFO - Starting extraction of Boots.com 5-star skincare products
+2025-03-31 11:37:09,058 - INFO - Command line arguments: Namespace(headless=False, max_products=None, batch_size=50, resume_from=0, data_dir='data', screenshot_dir='screenshots', cache_dir='cache', log_dir='logs', test=True, urls_file=None)
+2025-03-31 11:37:09,058 - INFO - Running in test mode with 10 products
+2025-03-31 11:37:09,562 - INFO - After scroll 28, product count: 0
+2025-03-31 11:37:09,562 - WARNING - Product count hasn't increased after scroll 28
+2025-03-31 11:37:09,588 - INFO - Trying JavaScript scroll
+2025-03-31 11:37:09,604 - INFO - Read robots.txt from https://www.boots.com/robots.txt
+2025-03-31 11:37:11,326 - INFO - Browser set up with user agent: Mozilla/5.0 (iPad; CPU OS 14_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/14.0 Mobile/15E148 Safari/604.1
+2025-03-31 11:37:11,326 - INFO - Finding all 5-star product URLs
+2025-03-31 11:37:11,326 - INFO - Finding 5-star rated skincare product URLs
+2025-03-31 11:37:11,637 - INFO - Scroll attempt 29/30, current products: 0/285
+2025-03-31 11:37:12,852 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:12,852 - INFO - Scrolling to load more products (scroll 12/12)...
+2025-03-31 11:37:15,218 - INFO - After scroll 29, product count: 0
+2025-03-31 11:37:15,233 - WARNING - Product count hasn't increased after scroll 29
+2025-03-31 11:37:15,370 - INFO - Trying JavaScript scroll
+2025-03-31 11:37:16,573 - INFO - Waiting 4.52 seconds before request...
+2025-03-31 11:37:17,385 - INFO - Scroll attempt 30/30, current products: 0/285
+2025-03-31 11:37:18,581 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:18,581 - INFO - Found 0 5-star product URLs
+2025-03-31 11:37:18,582 - ERROR - No 5-star product URLs found
+2025-03-31 11:37:20,424 - INFO - After scroll 30, product count: 0
+2025-03-31 11:37:20,539 - WARNING - Product count hasn't increased after scroll 30
+2025-03-31 11:37:20,564 - INFO - Trying JavaScript scroll
+2025-03-31 11:37:22,719 - INFO - Final product count after scrolling: 0/285
+2025-03-31 11:37:22,719 - INFO - Extracting product URLs
+2025-03-31 11:37:23,560 - INFO - Found 0 product elements with BeautifulSoup
+2025-03-31 11:37:23,560 - INFO - Saved 0 product URLs to data/boots_5star_urls_20250331_113431.txt
+2025-03-31 11:37:23,768 - ERROR - Failed to find any 5-star product URLs
+2025-03-31 11:37:25,536 - INFO - Using default count of 285 5-star rated products
+2025-03-31 11:37:25,536 - INFO - Scrolling to load more products (scroll 1/12)...
+2025-03-31 11:37:31,122 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:31,122 - INFO - Scrolling to load more products (scroll 2/12)...
+2025-03-31 11:37:36,619 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:36,620 - INFO - Scrolling to load more products (scroll 3/12)...
+2025-03-31 11:37:42,413 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:42,413 - INFO - Scrolling to load more products (scroll 4/12)...
+2025-03-31 11:37:47,966 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:47,966 - INFO - Scrolling to load more products (scroll 5/12)...
+2025-03-31 11:37:50,945 - INFO - Starting extraction of Boots.com 5-star skincare products
+2025-03-31 11:37:50,945 - INFO - Command line arguments: Namespace(headless=True, max_products=None, batch_size=20, resume_from=0, data_dir='data', screenshot_dir='screenshots', cache_dir='cache', log_dir='logs', test=False, urls_file=None)
+2025-03-31 11:37:51,352 - INFO - Read robots.txt from https://www.boots.com/robots.txt
+2025-03-31 11:37:52,034 - INFO - Browser set up with user agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36
+2025-03-31 11:37:52,034 - INFO - Finding all 5-star product URLs
+2025-03-31 11:37:52,034 - INFO - Finding 5-star rated skincare product URLs
+2025-03-31 11:37:53,783 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:53,783 - INFO - Scrolling to load more products (scroll 6/12)...
+2025-03-31 11:37:56,663 - INFO - Waiting 4.08 seconds before request...
+2025-03-31 11:37:59,503 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:37:59,503 - INFO - Scrolling to load more products (scroll 7/12)...
+2025-03-31 11:38:04,671 - INFO - Using default count of 285 5-star rated products
+2025-03-31 11:38:04,671 - INFO - Scrolling to load more products (scroll 1/12)...
+2025-03-31 11:38:05,152 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:05,152 - INFO - Scrolling to load more products (scroll 8/12)...
+2025-03-31 11:38:10,173 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:10,173 - INFO - Scrolling to load more products (scroll 2/12)...
+2025-03-31 11:38:10,746 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:10,746 - INFO - Scrolling to load more products (scroll 9/12)...
+2025-03-31 11:38:15,662 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:15,662 - INFO - Scrolling to load more products (scroll 3/12)...
+2025-03-31 11:38:16,448 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:16,448 - INFO - Scrolling to load more products (scroll 10/12)...
+2025-03-31 11:38:22,788 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:22,790 - INFO - Scrolling to load more products (scroll 4/12)...
+2025-03-31 11:38:23,639 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:23,639 - INFO - Scrolling to load more products (scroll 11/12)...
+2025-03-31 11:38:28,490 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:28,490 - INFO - Scrolling to load more products (scroll 5/12)...
+2025-03-31 11:38:29,331 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:29,331 - INFO - Scrolling to load more products (scroll 12/12)...
+2025-03-31 11:38:34,208 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:34,208 - INFO - Scrolling to load more products (scroll 6/12)...
+2025-03-31 11:38:35,729 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:35,729 - INFO - Found 0 5-star product URLs
+2025-03-31 11:38:35,730 - ERROR - No 5-star product URLs found
+2025-03-31 11:38:36,151 - ERROR - No product URLs to process
+2025-03-31 11:38:39,797 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:39,797 - INFO - Scrolling to load more products (scroll 7/12)...
+2025-03-31 11:38:45,707 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:45,707 - INFO - Scrolling to load more products (scroll 8/12)...
+2025-03-31 11:38:51,237 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:51,237 - INFO - Scrolling to load more products (scroll 9/12)...
+2025-03-31 11:38:56,769 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:38:56,770 - INFO - Scrolling to load more products (scroll 10/12)...
+2025-03-31 11:39:02,267 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:39:02,267 - INFO - Scrolling to load more products (scroll 11/12)...
+2025-03-31 11:39:07,780 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:39:07,781 - INFO - Scrolling to load more products (scroll 12/12)...
+2025-03-31 11:39:13,297 - INFO - Found 0 potential product cards on the page
+2025-03-31 11:39:13,298 - INFO - Found 0 5-star product URLs
+2025-03-31 11:39:13,299 - ERROR - No 5-star product URLs found
+2025-03-31 11:39:13,332 - ERROR - No product URLs to process
+2025-03-31 14:26:09,314 - INFO - Browser set up with user agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36 Edg/91.0.864.59
+2025-03-31 14:26:09,315 - INFO - Finding 5-star rated skincare product URLs
+2025-03-31 14:26:15,876 - INFO - Waiting 6.12 seconds before request...
+2025-03-31 14:26:26,810 - INFO - Using default count of 285 5-star rated products
+2025-03-31 14:26:26,810 - INFO - Scrolling to load more products (scroll 1/12)...
+2025-03-31 14:26:32,644 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:26:32,644 - INFO - Scrolling to load more products (scroll 2/12)...
+2025-03-31 14:26:38,398 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:26:38,399 - INFO - Scrolling to load more products (scroll 3/12)...
+2025-03-31 14:26:43,942 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:26:43,942 - INFO - Scrolling to load more products (scroll 4/12)...
+2025-03-31 14:26:49,567 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:26:49,568 - INFO - Scrolling to load more products (scroll 5/12)...
+2025-03-31 14:26:55,049 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:26:55,049 - INFO - Scrolling to load more products (scroll 6/12)...
+2025-03-31 14:27:00,548 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:27:00,549 - INFO - Scrolling to load more products (scroll 7/12)...
+2025-03-31 14:27:06,091 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:27:06,091 - INFO - Scrolling to load more products (scroll 8/12)...
+2025-03-31 14:27:11,617 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:27:11,618 - INFO - Scrolling to load more products (scroll 9/12)...
+2025-03-31 14:27:17,696 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:27:17,700 - INFO - Scrolling to load more products (scroll 10/12)...
+2025-03-31 14:27:23,818 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:27:23,819 - INFO - Scrolling to load more products (scroll 11/12)...
+2025-03-31 14:27:29,375 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:27:29,376 - INFO - Scrolling to load more products (scroll 12/12)...
+2025-03-31 14:27:34,870 - INFO - Found 0 potential product cards on the page
+2025-03-31 14:27:34,870 - INFO - Found 0 5-star product URLs
+2025-03-31 14:27:34,870 - INFO - Scraping 0 products
+2025-03-31 14:27:34,870 - INFO - Scraped 0 products
+2025-03-31 14:27:34,870 - WARNING - No product data to save
+2025-03-31 14:27:34,929 - INFO - 5-star scraping completed. Stats: {'pages_visited': 1, 'products_found': 0, 'products_scraped': 0, 'errors': 0, 'retries': 0, 'start_time': '2025-03-31T14:26:08.556499', 'end_time': '2025-03-31T14:27:34.929798', 'requests_made': 95}

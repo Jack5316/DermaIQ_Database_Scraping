@@ -1,0 +1,4 @@
+timestamp: 2025-03-31T12:02:29.053956
+total_products: 3
+processed_products: 3
+next_batch_index: 1

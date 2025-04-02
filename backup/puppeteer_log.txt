@@ -1,0 +1,8 @@
+2025-03-31T10:53:01.147Z - Starting Boots website analysis
+2025-03-31T10:53:07.107Z - Navigating to https://www.boots.com/beauty/skincare/skincare-all-skincare?criteria.roundedReviewScore=5
+2025-03-31T10:53:16.807Z - Took screenshot of initial page
+2025-03-31T10:53:16.807Z - Checking for cookie consent dialog
+2025-03-31T10:53:16.813Z - Error: page.waitForTimeout is not a function
+2025-03-31T10:53:16.813Z - TypeError: page.waitForTimeout is not a function
+    at analyzeBoodsWebsite (/Users/jack/Documents/Codebase/Claude Code/DermaIQ/Scraping/puppeteer_boots_analyzer.js:70:20)
+2025-03-31T10:53:16.933Z - Browser closed

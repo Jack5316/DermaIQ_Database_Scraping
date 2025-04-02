@@ -1,0 +1,9 @@
+2025-03-31 11:44:05,568 - boots_browser_server - INFO - Setting up browser
+2025-03-31 11:44:07,250 - boots_browser_server - INFO - Browser set up successfully
+2025-03-31 11:44:07,315 - werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-03-31 11:44:07,316 - werkzeug - INFO - [33mPress CTRL+C to quit[0m
+2025-03-31 11:44:07,713 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-03-31 11:45:46,951 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-03-31 11:55:00,444 - werkzeug - INFO -  * Restarting with watchdog (fsevents)
+2025-03-31 11:57:51,096 - werkzeug - INFO -  * Restarting with watchdog (fsevents)

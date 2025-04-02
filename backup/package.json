@@ -1,0 +1,16 @@
+{
+  "name": "scraping",
+  "version": "1.0.0",
+  "description": "A comprehensive scraper for extracting skincare product information from Boots.com, with a focus on 5-star rated products.",
+  "main": "puppeteer_boots_analyzer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "playwright": "^1.51.1",
+    "puppeteer": "^24.4.0"
+  }
+}
